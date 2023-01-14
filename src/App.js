@@ -26,10 +26,12 @@ export default function App() {
     else if (bmi >= 25 && bmi < 29.9) return "Overweight";
     else return "Obese";
   }
-
+  let reload = () => {
+    window.location.reload()
+  }
   return (
-    <div className="w-full max-w-xs m-10">
-      <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+    <div className="flex justify-center items-center h-full">
+      <form className="bg-blue-400 shadow-md rounded px-8 pt-6 pb-8 mb-4">
         <h1 className="text-center mb-4 text-xl"> BMI Calculator</h1>
         <div className="mb-4">
           <label
@@ -72,6 +74,11 @@ export default function App() {
             Calculate BMI
           </button>
         </div>
+        <div></div>
+        <div className="flex items-center justify-center"><button className="bg-purple-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+         onClick={reload} 
+         type='submit'>Reload</button></div>
+        
         {bmiResult && (
           <div className="mt-4">
             <p>Your BMI is: {bmiResult} </p>
