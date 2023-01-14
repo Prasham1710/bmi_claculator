@@ -77,7 +77,7 @@ export default function App() {
           </button>
         </div>
         <div></div>
-        <div className="flex items-center justify-center"><button className="bg-purple-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+        <div className="flex items-center pt-3 justify-center"><button className="bg-purple-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none  focus:shadow-outline"
          onClick={reload} 
          type='submit'>Reload</button></div>
         
