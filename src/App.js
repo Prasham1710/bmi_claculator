@@ -1,8 +1,8 @@
 import { useState } from "react";
 
 export default function App() {
-  const [height, setHeight] = useState("");
-  const [weight, setWeight] = useState("");
+  const [height, setHeight] = useState('');
+  const [weight, setWeight] = useState('');
 
   const [bmiResult, setBmiResult] = useState(null);
 
@@ -30,8 +30,8 @@ export default function App() {
     window.location.reload()
   }
   return (
-    <div className="flex justify-center items-center h-full">
-      <form className="bg-blue-200 shadow-md rounded px-8 pt-6 pb-8 mb-4">
+    <div className="flex justify-center items-center h-full pt-[200px]">
+      <form className="bg-blue-200 shadow-md rounded px-8 py-4 pt-7 pb-8 mb-4">
         <h1 className="text-center mb-4 text-xl"> BMI Calculator</h1>
         <div className="mb-4">
           <label
