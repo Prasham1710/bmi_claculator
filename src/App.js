@@ -1,6 +1,14 @@
     import React from 'react'
+    import { useState } from "react";
 
     const App = () => {
+      if (bmi < 25) {
+        setMessage('You are underweight')
+      } else if (bmi >= 25 && bmi < 30) {
+        setMessage('You are a healthy weight')
+      } else {
+        setMessage('You are overweight')
+      }
       return (
         <div className="w-full max-w-xs m-10">
           <div className='container'>
