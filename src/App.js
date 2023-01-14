@@ -2,6 +2,10 @@
     import { useState } from "react";
 
     const App = () => {
+      if (weight === 0 || height === 0) {
+      alert('Please enter a valid weight and height')
+    } else {
+      let bmi = (weight / (height * height) * 703)
       if (bmi < 25) {
         setMessage('You are underweight')
       } else if (bmi >= 25 && bmi < 30) {
