@@ -2,6 +2,10 @@
     import { useState } from "react";
 
     const App = () => {
+       const [weight, setWeight] = useState(0)
+  const [height, setHeight] = useState(0)
+  const [bmi, setBmi] = useState('')
+  const [message, setMessage] = useState('')
       if (weight === 0 || height === 0) {
       alert('Please enter a valid weight and height')
     } else {
