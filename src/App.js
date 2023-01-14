@@ -36,7 +36,7 @@ export default function App() {
         <div className="mb-4">
           <label
             className="block text-gray-700 text-sm font-bold mb-2"
-            for="username"
+            
           >
             Height
           </label>
@@ -52,7 +52,7 @@ export default function App() {
         <div className="mb-6">
           <label
             className="block text-gray-700 text-sm font-bold mb-2"
-            for="password"
+            
           >
             Weight
           </label>
