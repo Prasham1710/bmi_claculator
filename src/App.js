@@ -31,7 +31,7 @@ export default function App() {
   }
   return (
     <div className="flex justify-center items-center h-full">
-      <form className="bg-blue-400 shadow-md rounded px-8 pt-6 pb-8 mb-4">
+      <form className="bg-blue-200 shadow-md rounded px-8 pt-6 pb-8 mb-4">
         <h1 className="text-center mb-4 text-xl"> BMI Calculator</h1>
         <div className="mb-4">
           <label
