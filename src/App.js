@@ -30,9 +30,9 @@ export default function App() {
     window.location.reload()
   }
   return (
-    <div className="flex justify-center items-center h-full pt-[200px]">
+    <div><div className="flex justify-center items-center h-full pt-[200px]">
       <form className="bg-blue-200 shadow-md rounded px-8 py-4 pt-7 pb-8 mb-4">
-        <h1 className="text-center mb-4 text-xl"> BMI Calculator</h1>
+        <h1 className="text-center  mb-4 text-xl"> BMI Calculator</h1>
         <div className="mb-4">
           <label
             className="block text-gray-700 text-sm font-bold mb-2"
@@ -86,5 +86,6 @@ export default function App() {
           </div>
         )}
       </form>
-    </div>
+    </div></div>
+    
   );}
