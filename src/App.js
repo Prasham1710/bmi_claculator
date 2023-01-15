@@ -33,7 +33,7 @@
       <div className="relative">
         <img className ='absolute w-full h-full object-cover mix-blend-overlay'src ='https://images.pexels.com/photos/628241/pexels-photo-628241.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'/>
         <div className="flex relative justify-center pt-[100px]"><p  className="text-5xl bg-white">Check Your Bmi</p> </div>
-        <div className="flex justify-center items-center h-full  pt-[100px]">
+        <div className="flex justify-center items-center h-full  pt-6 pb-16">
         <form className="bg-blue-200 relative shadow-md rounded h-[450px] w-[400px] px-8 py-4 pt-6 pb-8 mb-4">
           <h1 className="text-center  mb-4 text-2xl"> BMI Calculator</h1>
           <div className="mb-4">
